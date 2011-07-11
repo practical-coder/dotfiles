@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/data/programming/ruby/mechanize/searching/app/views/queries'
+let g:netrw_dirhist_2='/data/programming/rails3_projects/sample_app/public/stylesheets'
+let g:netrw_dirhist_3='/data/programming/beginning_rails3/blog/app/views/requests'
+let g:netrw_dirhist_4='/data/programming/ruby/mechanize/searching/app/models'
+let g:netrw_dirhist_5='/usr/lib/ruby/gems/1.9.1/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api'
+let g:netrw_dirhist_6='/etc/nginx/sites-enabled'
+let g:netrw_dirhist_7='/etc/default'
