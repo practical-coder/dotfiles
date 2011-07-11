@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+yard server --port=9999 --daemon --gems
+google-chrome http://localhost:9999

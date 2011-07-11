@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dict $1 | colorit | less -R
+exit 0

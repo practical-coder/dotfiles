@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+#####################################################
+#
+# name:		psgrep
+# date:		pią, 27 lis 2009
+# purpose:
+# 	Combine ps with pgrep in shorter syntax
+#
+# usage:
+#    psgrep <search_pattern>
+#
+#####################################################
+
+ps -wwwFp$(pgrep -d, -f $1) | grep -v psgrep | grep -vw ps
+
+exit 0
